@@ -1,0 +1,9 @@
+For every particular case the list has to be context dependent. Here are basic checks for simple Rest Api response:
+- Status code is 200 Ok
+- Status code is 403 Forbidden
+- Response time is less than 200 ms
+- Response size less than 1000 kb
+- Response body not empty (more some length)
+- Response body key name presence
+- <header name> is present
+- <header name> value check
